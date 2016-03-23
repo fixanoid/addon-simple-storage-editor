@@ -5,7 +5,7 @@
   "icon": "data/images/icon.png",
   "icon64": "data/images/icon64.png",
   "description": "Addon designed for in browser editing of Simple Storage for Addons",
-  "author": "felix@ghostery.com",
+  "author": "felix.shnir@gmail.com",
   "contributors": [
     "Benjamin Menant <dev@menant-benjamin.fr>"
   ],
