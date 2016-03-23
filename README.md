@@ -25,7 +25,7 @@ License information is stored in the LICENSE file.
 
 How to file an issue
 --------------------
-You may file an issue using GitHub's own issue tracker: https://github.com/ghostery/addon-simple-storage-editor/issues
+You may file an issue using GitHub's own issue tracker: https://github.com/fixanoid/addon-simple-storage-editor/issues
 
 
 How to submit a fix/pull request
