@@ -72,7 +72,8 @@ self.port.on('get-json', function(data) {
 	}
 
 	if (!editor) {
-		editor = new jsoneditor.JSONEditor(container);
+		//editor = new jsoneditor.JSONEditor(container);
+		editor = new JSONEditor(container, {});
 	}
 
 	editor.set(JSON.parse(data.json));
@@ -84,7 +85,7 @@ self.port.on('get-json', function(data) {
  		 status = document.getElementById('status-' + data.id),
  		 result = true;
 
-		if (status.innerHTML == 'true') { 
+		if (status.innerHTML == 'true') {
  			result = confirm('In order to save simple-storage for an addon,\n' +
  							 'the addon will be disabled, new json will be \n' +
  							 'saved and the addon will be re-enabled.\n\n' +
